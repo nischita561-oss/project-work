@@ -1,0 +1,186 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('/images/aa.png');
+    background-repeat: repeat-x;
+    background-size: contain;
+
+}
+
+.main {
+    max-width: 1500px;
+    margin: auto;
+
+    height: 100vh;
+    gap: 10px;
+
+}
+
+.creation {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    padding-top: 150px;
+    gap: 10px;
+}
+
+.contact-container {
+    display: flex;
+    color: white;
+    margin: auto;
+    width: 1550px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #BE3A30;
+}
+
+.person {
+    align-items: center;
+    color: white;
+    font-family: "Imperial Script", cursive;
+    font-size: 2.5rem;
+    padding-left: 100px;
+}
+
+.reachout {
+    display: flex;
+    gap: 30px;
+    font-size: 2rem;
+    font-family: "Imperial Script", cursive;
+    padding-right: 100px;
+
+}
+
+.reachout>a {
+    color: white;
+    text-decoration: none;
+}
+
+
+
+.poem {
+    width: 500px;
+    height: 300px;
+    border: 7px solid burlywood;
+    display: flex;
+    margin-left: 80px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 35px;
+    position: relative;
+    top: 30%;
+}
+
+.poem img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 35px;
+}
+
+.media {
+
+    width: 500px;
+    height: 300px;
+    border: 7px solid burlywood;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 35px;
+    position: relative;
+    top: 30%;
+}
+
+.media img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 35px;
+
+}
+
+.text-overlay h1 {
+    font-family: "Imperial Script", cursive;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 2.5rem;
+    color: darkblue;
+    align-items: center;
+    position: absolute;
+    top: 20%;
+    left: 25%;
+}
+
+.text-overlay p {
+
+    color: mintcream;
+    position: absolute;
+    top: 50%;
+    left: 15%;
+    width: 300px;
+}
+
+@media(max-width:1000px) {
+    .contact-container {
+        display: flex;
+        align-items: center;
+        width: 1000px;
+    }
+
+    body {
+        background-image: url('/images/aa.png');
+        background-repeat: repeat-x;
+        background-size: contain;
+    }
+
+    .creation {
+        margin-right: 40px;
+    }
+}
+
+@media(max-width:700px) {
+
+    .contact-container {
+        display: flex;
+        align-items: center;
+        width: 700px;
+    }
+
+    body {
+        background-image: url('/images/aa.png');
+        background-repeat: repeat;
+        background-size: contain;
+    }
+
+    .text-overlay h1 {
+        font-family: "Imperial Script", cursive;
+        font-weight: 800;
+        font-style: normal;
+        font-size: 2.5rem;
+        color: darkblue;
+        position: absolute;
+        top: 20%;
+        left: 17%;
+    }
+
+    .text-overlay p {
+
+        color: mintcream;
+        position: absolute;
+        top: 39%;
+        left: 19%;
+        width: 150px;
+    }
+
+    .creation {
+        margin-right: 40px;
+    }
+}

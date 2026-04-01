@@ -1,0 +1,292 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0px;
+}
+
+body {
+    background-image: url('/images/bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+
+.contact-container {
+    color: white;
+    background-color: #BE3A30;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    max-width: 100%;
+}
+
+
+
+.nav-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+
+}
+
+.person {
+    align-items: center;
+    color: white;
+    font-family: "Imperial Script", cursive;
+    font-size: 2.5rem;
+}
+
+.reachout {
+    display: flex;
+    gap: 20px;
+    font-size: 2rem;
+    font-family: "Imperial Script", cursive;
+
+}
+
+.reachout>a {
+    color: white;
+    text-decoration: none;
+}
+
+
+
+.content {
+    display: flex;
+    justify-content: center;
+    padding-top: 150px;
+    margin: auto;
+    max-width: 1200px;
+    align-items: center;
+
+}
+
+
+.content>div {
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0;
+}
+
+.Programming {
+    justify-content: center;
+    height: 300px;
+    position: relative;
+    border: solid black;
+
+}
+
+.Programming>img {
+    display: block;
+    width: 100%;
+    height: 100%;
+
+}
+
+
+.a {
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+.b {
+    text-align: left;
+    line-height: 1.4;
+
+}
+
+
+
+.Tools {
+    border: solid black;
+    color: bisque;
+    position: relative;
+
+}
+
+.Tools>img {
+    display: block;
+    width: 100%;
+    height: 100%;
+
+
+}
+
+.Languages {
+    border: solid black;
+    color: bisque;
+    position: relative;
+
+}
+
+.Languages>img {
+    display: block;
+    width: 100%;
+    height: 100%;
+
+}
+
+.text-overlay {
+    position: absolute;
+    /* width: 300px; */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+@media(max-width:1000px) {
+    /* body {
+        background-image: url('/images/bg.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    } */
+
+    .Programming {
+        justify-content: center;
+        /* width: 250px; */
+        height: 250px;
+        position: relative;
+        border: solid black;
+
+    }
+
+    .Programming img {
+        display: block;
+        width: 100%;
+        height: 100%;
+
+    }
+
+    .Tools {
+        width: 250px;
+        /* height: 250px; */
+        border: solid black;
+        color: bisque;
+        position: relative;
+
+    }
+
+    .Tools img {
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+
+    .content {
+        display: flex;
+        justify-content: center;
+        /* width: 1000px; */
+        margin: 50px;
+    }
+
+
+    .Languages {
+        /* width: 250px; */
+        height: 250px;
+        border: solid black;
+        color: bisque;
+        position: relative;
+
+    }
+
+    .Languages img {
+        display: block;
+        width: 100%;
+        height: 100%;
+
+    }
+
+    .text-overlay {
+        position: absolute;
+        width: 100px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        text-align: center;
+        background-color: rgba(0, 0, 0, 0.5);
+        padding: 10px;
+        border-radius: 5px;
+    }
+
+}
+
+@media (max-width:700px) {
+    .contact-container {
+        display: flex;
+        color: white;
+        margin: auto;
+        max-width: 700px;
+        align-items: center;
+        justify-content: space-between;
+        background-color: #BE3A30;
+    }
+
+    body {
+        background-image: url('/images/bg.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .Programming {
+        justify-content: center;
+        width: 200px;
+        height: 200px;
+        position: relative;
+        border: solid black;
+
+    }
+
+    .Programming img {
+        display: block;
+        width: 100%;
+        height: 100%;
+
+    }
+
+    .Tools {
+        width: 200px;
+        height: 200px;
+        border: solid black;
+        color: bisque;
+        position: relative;
+
+    }
+
+    .Tools img {
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+
+    .content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        padding-bottom: 50px;
+    }
+
+
+    .Languages {
+        width: 200px;
+        height: 200px;
+        border: solid black;
+        color: bisque;
+        position: relative;
+
+    }
+
+
+
+}

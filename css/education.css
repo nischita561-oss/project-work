@@ -1,0 +1,326 @@
+* {
+    margin: 0px;
+    border: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('/images/greenbg.jpg');
+    background-repeat: repeat-y;
+    background-size: cover;
+}
+
+#education-wrapper {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+
+.contact-container {
+    display: flex;
+    color: white;
+    margin: auto;
+    width: 1535px;
+    height: 70px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #370a27;
+
+}
+
+
+
+.person {
+    align-items: center;
+    color: white;
+    font-family: "Imperial Script", cursive;
+    font-size: 3rem;
+    padding-left: 100px;
+}
+
+.reachout {
+    display: flex;
+    gap: 2px;
+    font-size: 2rem;
+
+
+
+}
+
+.reachout>a {
+    font-family: "Imperial Script", cursive;
+    color: white;
+    text-decoration: none;
+    padding-right: 100px;
+}
+
+.school-level {
+    width: 430px;
+    height: 250px;
+    background-color: aliceblue;
+    border: 3px solid #183E0C;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 22%;
+    left: 23%;
+}
+
+.school-level-content {
+    background-color: #7e8a4f;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 35px;
+    padding-right: 20px;
+    color: #172210;
+    justify-content: center;
+    height: 200px;
+    width: 380px;
+    gap: 5px;
+
+}
+
+.main-title {
+    margin-left: -35px;
+    text-decoration: underline;
+    align-self: center;
+    margin-bottom: 10px;
+}
+
+.sub-container {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    width: 100%;
+}
+
+.label {
+    font-weight: bold;
+    white-space: nowrap;
+
+}
+
+.sub-list {
+    text-align: left;
+    line-height: 1.4;
+}
+
+.info-row {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.institute {
+    font-weight: bold;
+    white-space: nowrap;
+
+}
+
+.wp {
+    line-height: 1.4;
+    text-align: left;
+}
+
+.batch {
+    font-weight: bold;
+
+}
+
+.high-school {
+    background-color: aliceblue;
+    width: 420px;
+    height: 250px;
+    background-color: cornsilk;
+    border: solid 3px #172210;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 20%;
+    bottom: 15%;
+}
+
+.high-school-content {
+
+    background-color: #8a654f;
+    width: 350px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 35px;
+    padding-right: 20px;
+    color: #172210;
+    justify-content: center;
+    height: 200px;
+    width: 380px;
+    gap: 5px;
+}
+
+.value {
+    padding-left: 34px;
+    text-decoration: underline;
+}
+
+.sub-list {
+    padding-left: 15px;
+    text-decoration: underline;
+}
+
+.wp {
+    text-decoration: underline;
+
+}
+
+@media(max-width:1000px) {
+    .person {
+        font-size: 2rem;
+    }
+
+    .contact-container {
+        align-items: center;
+        display: flex;
+        width: 1000px;
+    }
+
+    .reachout {
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .reachout>a {
+        font-size: 1.5rem;
+    }
+
+    .school-level {
+        width: 350px;
+        height: 220px;
+        background-color: aliceblue;
+        border: 3px solid #183E0C;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        padding: 20px;
+
+    }
+
+    .school-level-content {
+        background-color: #7e8a4f;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding-left: 35px;
+        padding-right: 20px;
+        color: #172210;
+        justify-content: center;
+        height: 190px;
+        width: 100%;
+        gap: 5px;
+
+    }
+
+    .high-school {
+        width: 350px;
+        height: 230px;
+        background-color: aliceblue;
+        border: 3px solid #183E0C;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        padding: 20px;
+        position: absolute;
+        bottom: 7%;
+        right: 10%;
+
+    }
+
+    .high-school-content {
+        background-color: #8a654f;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding-left: 25px;
+        padding-right: 20px;
+        color: #172210;
+        justify-content: center;
+        height: 200px;
+        width: 100%;
+        gap: 5px;
+
+    }
+
+}
+
+@media(max-width:700px) {
+    .person {
+        font-size: 2rem;
+        padding-right: 80px;
+    }
+
+    .contact-container {
+        align-items: center;
+        display: flex;
+        width: 700px;
+    }
+
+    .reachout {
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .reachout>a {
+        font-size: 1.5rem;
+    }
+
+    .school-level {
+        width: 350px;
+        height: 220px;
+        background-color: aliceblue;
+        border: 3px solid #183E0C;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        padding: 20px;
+        position: absolute;
+        left: 3.5%;
+
+    }
+
+    .high-school {
+        width: 350px;
+        height: 230px;
+        background-color: aliceblue;
+        border: 3px solid #183E0C;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        padding: 20px;
+        position: absolute;
+        bottom: 3%;
+        right: 0%;
+
+    }
+
+    .high-school-content {
+        background-color: #8a654f;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding-left: 25px;
+        padding-right: 20px;
+        color: #172210;
+        justify-content: center;
+        height: 200px;
+        width: 100%;
+        gap: 5px;
+
+
+    }
+
+}

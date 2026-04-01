@@ -1,0 +1,236 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-image: url('/images/download.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.contact-wrapper {
+    background-color: #BE3A30;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    max-width: 100%;
+}
+
+.contact-container {
+    display: flex;
+    color: white;
+    margin: auto;
+    max-width: 1200px;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+
+.person {
+    align-items: center;
+    color: white;
+    font-family: "Imperial Script", cursive;
+    font-size: 2.5rem;
+    padding-left: 100px;
+}
+
+.reachout {
+    display: flex;
+    gap: 20px;
+    font-size: 2rem;
+    font-family: "Imperial Script", cursive;
+
+
+}
+
+.reachout>a {
+    color: white;
+    text-decoration: none;
+    padding-right: 10px;
+}
+
+
+
+.about-wrapper {
+    margin-top: 50px;
+}
+
+.about-container {
+    display: flex;
+    gap: 20px;
+    max-width: 1000px;
+    margin: auto;
+    color: #BE3A30;
+    text-decoration: none;
+    margin: auto;
+    padding: 10px 10px 10px 30px;
+    border: 6px solid white;
+    border-radius: 15px;
+    align-items: center;
+}
+
+.description {
+    width: 500px;
+    padding-left: 30px;
+
+}
+
+.name {
+    font-size: 7em;
+    font-family: serif;
+    align-items: center;
+    text-shadow: 0px 3px 8px brown;
+}
+
+.about {
+    display: flex;
+    font-size: rem;
+    padding-top: 50px;
+    align-items: center;
+    text-shadow: 0px 3px 8px brown;
+
+}
+
+.Achievement {
+    padding-top: 30px;
+    text-shadow: 0px 3px 8px brown;
+
+}
+
+.Achievement>a {
+    font-size: 2rem;
+    text-decoration: none;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: #BE3A30;
+}
+
+.image img {
+    height: 375px;
+    width: 375px;
+    border-radius: 13px;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 25px;
+}
+
+@media (max-width:1000px) {
+    .contact-container {
+        align-items: center;
+        display: flex;
+        width: 800px;
+    }
+
+    .about-container {
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+        width: 800px;
+    }
+
+    .image img {
+        height: 295px;
+        width: 295px;
+        border-radius: 13px;
+        align-items: center;
+        margin-top: 40px;
+        margin-bottom: 25px;
+
+    }
+
+    .reachout {
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .creation {
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+}
+
+@media (max-width:700px) {
+    body {
+        background-image: url('/images/download.png');
+        background-repeat: repeat;
+        background-size: cover;
+    }
+
+    .parent {
+        width: 700px;
+    }
+
+    .contact-container {
+        align-items: center;
+        display: flex;
+        width: 500px;
+    }
+
+    .contact-wrapper {
+        width: 900px;
+    }
+
+    .image img {
+        display: flex;
+        height: 250px;
+        width: 250px;
+        margin: 20px 60px 20px 0;
+
+    }
+
+    .about-wrapper {
+        align-items: center;
+        margin: 100px 50px 0px 30px;
+    }
+
+    .about-container {
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        width: 700px;
+    }
+
+
+
+    .reachout {
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .creation {
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+    .person {}
+
+    .name {
+        font-size: 3rem;
+        margin-left: 50px;
+    }
+
+    .about {
+        display: flex;
+        align-items: center;
+        width: 250px;
+        margin-left: 50px;
+    }
+
+    .Achievement {
+        width: 400px;
+        padding-left: 50px;
+    }
+}
