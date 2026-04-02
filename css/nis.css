@@ -59,16 +59,21 @@ body {
 
 .about-wrapper {
     margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
 }
 
 .about-container {
     display: flex;
     gap: 20px;
-    max-width: 1000px;
     margin: auto;
+    width: 1000px;
+
+    justify-content: center;
     color: #BE3A30;
     text-decoration: none;
-    margin: auto;
+    margin: 50px;
     padding: 10px 10px 10px 30px;
     border: 6px solid white;
     border-radius: 15px;
@@ -111,7 +116,7 @@ body {
     color: #BE3A30;
 }
 
-.image img {
+.about-container img {
     height: 375px;
     width: 375px;
     border-radius: 13px;
@@ -122,36 +127,27 @@ body {
 
 @media (max-width:1000px) {
     .contact-container {
-        align-items: center;
+
         display: flex;
-        width: 800px;
+
     }
 
     .about-container {
-        align-items: center;
+
         display: flex;
         justify-content: space-between;
-        width: 800px;
-    }
-
-    .image img {
-        height: 295px;
-        width: 295px;
-        border-radius: 13px;
-        align-items: center;
-        margin-top: 40px;
-        margin-bottom: 25px;
 
     }
+
+
 
     .reachout {
-        align-items: center;
         display: flex;
         justify-content: space-between;
     }
 
     .creation {
-        align-items: center;
+
         display: flex;
         justify-content: space-between;
 
@@ -160,77 +156,22 @@ body {
 }
 
 @media (max-width:700px) {
-    body {
-        background-image: url('/images/download.png');
-        background-repeat: repeat;
-        background-size: cover;
-    }
-
-    .parent {
-        width: 700px;
-    }
-
-    .contact-container {
-        align-items: center;
-        display: flex;
-        width: 500px;
-    }
-
-    .contact-wrapper {
-        width: 900px;
-    }
-
-    .image img {
-        display: flex;
-        height: 250px;
-        width: 250px;
-        margin: 20px 60px 20px 0;
-
-    }
-
-    .about-wrapper {
-        align-items: center;
-        margin: 100px 50px 0px 30px;
-    }
-
     .about-container {
-        align-items: center;
         display: flex;
-        justify-content: center;
-        width: 700px;
+        width: 90%;
+        justify-content: space-around;
+        text-align: center;
+        gap: 15px;
     }
 
-
-
-    .reachout {
-        align-items: center;
-        display: flex;
-        justify-content: space-between;
+    .about-container img {
+        max-width: 200px;
+        height: auto;
     }
-
-    .creation {
-        align-items: center;
-        display: flex;
-        justify-content: space-between;
-
-    }
-
-    .person {}
 
     .name {
-        font-size: 3rem;
-        margin-left: 50px;
+        font-size: 4rem;
+        margin-bottom: 5px;
     }
 
-    .about {
-        display: flex;
-        align-items: center;
-        width: 250px;
-        margin-left: 50px;
-    }
-
-    .Achievement {
-        width: 400px;
-        padding-left: 50px;
-    }
 }
