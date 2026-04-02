@@ -20,8 +20,11 @@ body {
     display: flex;
     color: white;
     margin: auto;
-    width: 1535px;
-    height: 70px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    max-width: 100%;
     align-items: center;
     justify-content: space-between;
     background-color: #370a27;
@@ -180,13 +183,6 @@ body {
     .person {
         font-size: 2rem;
     }
-
-    .contact-container {
-        align-items: center;
-        display: flex;
-        width: 1000px;
-    }
-
     .reachout {
         align-items: center;
         display: flex;
@@ -196,42 +192,15 @@ body {
     .reachout>a {
         font-size: 1.5rem;
     }
-
     .school-level {
         width: 350px;
         height: 220px;
-        background-color: aliceblue;
-        border: 3px solid #183E0C;
-        margin: auto;
-        display: flex;
-        align-items: center;
         padding: 20px;
 
     }
-
-    .school-level-content {
-        background-color: #7e8a4f;
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        padding-left: 35px;
-        padding-right: 20px;
-        color: #172210;
-        justify-content: center;
-        height: 190px;
-        width: 100%;
-        gap: 5px;
-
-    }
-
     .high-school {
         width: 350px;
         height: 230px;
-        background-color: aliceblue;
-        border: 3px solid #183E0C;
-        margin: auto;
-        display: flex;
-        align-items: center;
         padding: 20px;
         position: absolute;
         bottom: 7%;
@@ -239,20 +208,6 @@ body {
 
     }
 
-    .high-school-content {
-        background-color: #8a654f;
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        padding-left: 25px;
-        padding-right: 20px;
-        color: #172210;
-        justify-content: center;
-        height: 200px;
-        width: 100%;
-        gap: 5px;
-
-    }
 
 }
 
@@ -262,65 +217,21 @@ body {
         padding-right: 80px;
     }
 
-    .contact-container {
-        align-items: center;
-        display: flex;
-        width: 700px;
-    }
-
-    .reachout {
-        align-items: center;
-        display: flex;
-        justify-content: space-between;
-    }
-
     .reachout>a {
         font-size: 1.5rem;
     }
 
     .school-level {
-        width: 350px;
-        height: 220px;
-        background-color: aliceblue;
-        border: 3px solid #183E0C;
-        margin: auto;
-        display: flex;
-        align-items: center;
         padding: 20px;
         position: absolute;
         left: 3.5%;
-
     }
 
     .high-school {
-        width: 350px;
-        height: 230px;
-        background-color: aliceblue;
-        border: 3px solid #183E0C;
-        margin: auto;
-        display: flex;
-        align-items: center;
-        padding: 20px;
         position: absolute;
         bottom: 3%;
         right: 0%;
-
     }
 
-    .high-school-content {
-        background-color: #8a654f;
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        padding-left: 25px;
-        padding-right: 20px;
-        color: #172210;
-        justify-content: center;
-        height: 200px;
-        width: 100%;
-        gap: 5px;
-
-
-    }
 
 }
